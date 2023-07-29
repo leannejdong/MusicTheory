@@ -58,3 +58,4 @@ int main(int argc, char* argv[])
 }
 
 // nscale notes midinote
+//https://leanne.godbolt.org/z/hTE8zajY5
