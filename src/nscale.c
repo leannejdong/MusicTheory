@@ -6,7 +6,7 @@ int main(int argc, char* argv[])
 {
     int notes, i, midinote;
     double frequency, ratio;
-    doble c0, c5;
+    double c0, c5;
     double intervals[24];
 
     if(argc!=3){
@@ -29,7 +29,7 @@ int main(int argc, char* argv[])
         printf("Error: cannot have negative MIDI notes!\n");
         return 1;
     }
-    if(midnote > 127){
+    if(midinote > 127){
         printf("Error: maximum midnote is 127\n");
         return 1;
     }
